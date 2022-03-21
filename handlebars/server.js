@@ -45,7 +45,7 @@ routerProd
 
         const newProd = storProd.saveProduct(req.body)
 
-        res.render('form');
+        res.redirect('/');
     }) 
 
 

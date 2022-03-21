@@ -32,7 +32,7 @@ routerProd
 
         const newProd = storProd.saveProduct(req.body)
         vista = true
-        res.render('index', {vista});
+        res.redirect('/');
     })  
 
 const server = app.listen(PORT, () => console.log(`Servidor corriendo en el puerto ${PORT}`))
